@@ -14,7 +14,7 @@ pnpm install
 bun install
 ```
 
-Update your .env file with your redis credentials
+Update your .env file with your redis credentials all
 
 Next, run the development server:
 
