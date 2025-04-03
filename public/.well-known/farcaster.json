@@ -5,14 +5,11 @@
       "signature": "MHg5ZGVkNzA2YjRiODQwZmQyMzUyNzIxOTJhYTg3YzBjM2UwMmFhY2NiMmYyYzlhNzlmZjQyNjRjNzFiZTQxN2QwMDFiZjQ5ZjJkNThmNmYyYTExMGZjNmE2ZWQwNzJmZjMxNGEzMDBlOWY3MTFhYzY3NTU5ZmEzMWZjOTYwZmYyMzFi"
     },
     "frame": {
-      "version": "next",
-      "name": "task-tribe",
-      "homeUrl": "https://task-tribe-sigma.vercel.app",
-      "iconUrl": "https://task-tribe-sigma.vercel.app/snake.png",
-      "imageUrl": "https://task-tribe-sigma.vercel.app/snake.png",
-      "buttonTitle": "Launch task-tribe",
-      "splashImageUrl": "https://task-tribe-sigma.vercel.app/snake.png",
-      "splashBackgroundColor": "#FFFFFF",
-      "webhookUrl": "https://task-tribe-sigma.vercel.app/api/webhook"
+    "version": "next",
+    "name": "MiniKit",
+    "iconUrl": "https://task-tribe-sigma.vercel.app/snake.png",
+    "splashImageUrl": "https://task-tribe-sigma.vercel.app/snake.png",
+    "splashBackgroundColor": "#FFFFFF",
+    "homeUrl": "https://task-tribe-sigma.vercel.app"
     }
   }
