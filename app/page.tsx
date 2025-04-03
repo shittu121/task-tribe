@@ -4,6 +4,7 @@ import {
   useMiniKit,
   useAddFrame,
   useOpenUrl,
+  useNotification,
 } from "@coinbase/onchainkit/minikit";
 import { Name, Identity, Badge } from "@coinbase/onchainkit/identity";
 import { useCallback, useEffect, useMemo, useState } from "react";
@@ -21,6 +22,15 @@ export default function App() {
   const addFrame = useAddFrame();
   const openUrl = useOpenUrl();
   const { address } = useAccount();
+  const sendNotification = useNotification();
+
+  const handleSendNotification = () => {
+    sendNotification({
+      title: 'New High Score!',
+      body: 'Congratulations on your new high score!'
+    });
+  };
+
 
   useEffect(() => {
     if (!isFrameReady) {
@@ -86,8 +96,8 @@ export default function App() {
           <div className="pr-1 justify-end">{saveFrameButton}</div>
         </header>
 
-        <main className="font-serif">
-          
+        <main className="font-serif text-white">
+          <button onClick={handleSendNotification}>Send Notification</button>
         </main>
 
         <footer className="absolute bottom-4 flex items-center w-screen max-w-[520px] justify-center">
