@@ -7,12 +7,12 @@
     "frame": {
       "version": "next",
       "name": "task-tribe",
-      "homeUrl": "https://task-tribe-sigma.vercel.app/",
-      "iconUrl": "https://task-tribe-sigma.vercel.app//snake.png",
-      "imageUrl": "https://task-tribe-sigma.vercel.app//snake.png",
+      "homeUrl": "https://task-tribe-sigma.vercel.app",
+      "iconUrl": "https://task-tribe-sigma.vercel.app/snake.png",
+      "imageUrl": "https://task-tribe-sigma.vercel.app/snake.png",
       "buttonTitle": "Launch task-tribe",
-      "splashImageUrl": "https://task-tribe-sigma.vercel.app//snake.png",
+      "splashImageUrl": "https://task-tribe-sigma.vercel.app/snake.png",
       "splashBackgroundColor": "#FFFFFF",
-      "webhookUrl": "https://task-tribe-sigma.vercel.app//api/webhook"
+      "webhookUrl": "https://task-tribe-sigma.vercel.app/api/webhook"
     }
   }
