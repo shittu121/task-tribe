@@ -7,9 +7,9 @@ import {
 } from "@coinbase/onchainkit/minikit";
 import { Name, Identity, Badge } from "@coinbase/onchainkit/identity";
 import { useCallback, useEffect, useMemo, useState } from "react";
+import Snake from "../components/snake";
 import { useAccount } from "wagmi";
-import Check from "./svg/Check";
-import { ShootingStars } from "./components/background";
+import Check from "../svg/Check";
 
 const SCHEMA_UID =
   "0x7889a09fb295b0a0c63a3d7903c4f00f7896cca4fa64d2c1313f8547390b7d39";
@@ -59,8 +59,7 @@ export default function App() {
   }, [context, handleAddFrame, frameAdded]);
 
   return (
-    <div className="flex flex-col min-h-screen sm:min-h-[820px] font-sans text-black items-center relative">
-      <ShootingStars />
+    <div className="flex flex-col min-h-screen sm:min-h-[820px] font-sans bg-[#E5E5E5] text-black items-center snake-dark relative">
       <div className="w-screen max-w-[520px]">
         <header className="mr-2 mt-1 flex justify-between">
           <div className="justify-start pl-1">
@@ -87,7 +86,7 @@ export default function App() {
         </header>
 
         <main className="font-serif">
-          
+          <Snake />
         </main>
 
         <footer className="absolute bottom-4 flex items-center w-screen max-w-[520px] justify-center">

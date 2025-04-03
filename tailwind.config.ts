@@ -49,11 +49,20 @@ const config: Config = {
       },
       animation: {
         "fade-out": "1s fadeOut 3s ease-out forwards",
+        "pulse-slow": "pulse-slow 3s ease-in-out infinite",
       },
       keyframes: {
         fadeOut: {
           "0%": { opacity: "1" },
           "100%": { opacity: "0" },
+        },
+        "pulse-slow": {
+          '0%, 100%': {
+              transform: 'translateX(-100%)',
+          },
+          '50%': {
+              transform: 'translateX(100%)',
+          },
         },
       },
     },
