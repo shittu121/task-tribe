@@ -1,0 +1,18 @@
+{
+    "accountAssociation": {
+      "header": "eyJmaWQiOjk2NzQyMSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDNmMzRlYjI1QjY0ODdjY0Y2M0NBNDI1ZWI1NUVhMzRlMDc1QjQ1YjEifQ",
+      "payload": "eyJkb21haW4iOiJ0YXNrLXRyaWJlLXNpZ21hLnZlcmNlbC5hcHAifQ",
+      "signature": "MHg4ZGZmNDgyMGVjNTRiNjJkYTc1OWRjNjRlZjBiYjJjNmU0YTkzODljNmQ1YjEwNDg2YmE5NzVhZTc5MzUyZDFjMTI2NTliNzJlNGUzMGRkZjU5MjM4NzA1ODMwODRjZTVmOGNjYzkyM2MwZGU2MmVlYTg2YjYxMzg1MjJmNWM1NjFj"
+    },
+    "frame": {
+      "version": "next",
+      "name": "task-tribe",
+      "homeUrl": "https://task-tribe-sigma.vercel.app/",
+      "iconUrl": "https://task-tribe-sigma.vercel.app//snake.png",
+      "imageUrl": "https://task-tribe-sigma.vercel.app//snake.png",
+      "buttonTitle": "Launch task-tribe",
+      "splashImageUrl": "https://task-tribe-sigma.vercel.app//snake.png",
+      "splashBackgroundColor": "#FFFFFF",
+      "webhookUrl": "https://task-tribe-sigma.vercel.app//api/webhook"
+    }
+  }
