@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
+// import { usePathname } from "next/navigation"
 import { LucideIcon } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Auth } from "../navbar"
@@ -20,8 +20,8 @@ interface NavBarProps {
   defaultActive?: string
 }
 
-export function AnimeNavBar({ items, className, defaultActive = "Home" }: NavBarProps) {
-  const pathname = usePathname()
+export function AnimeNavBar({ items, defaultActive = "Home" }: NavBarProps) {
+  // const pathname = usePathname()
   const [mounted, setMounted] = useState(false)
   const [hoveredTab, setHoveredTab] = useState<string | null>(null)
   const [activeTab, setActiveTab] = useState<string>(defaultActive)
@@ -43,9 +43,12 @@ export function AnimeNavBar({ items, className, defaultActive = "Home" }: NavBar
 
   if (!mounted) return null
 
+  
+
   return (
     <div className="fixed top-5 left-0 right-0 z-[9999]">
       <div className="flex justify-center items-center gap-10 pt-6">
+        {isMobile? '' : ''}
         <motion.div 
           className="flex items-center gap-3 bg-black/50 border border-white/10 backdrop-blur-lg py-2 px-2 rounded-full shadow-lg relative"
           initial={{ y: -20, opacity: 0 }}

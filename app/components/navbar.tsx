@@ -3,11 +3,10 @@
 import * as React from "react" // Import React
 import { Home, FileText, CreditCard, Info } from "lucide-react"
 import { AnimeNavBar } from "./ui/anime-navbar"
-import { Name, Identity, Badge, EthBalance, Address, Avatar, } from "@coinbase/onchainkit/identity";
+import { Name, Identity, Badge, Address, Avatar, } from "@coinbase/onchainkit/identity";
 import { useAccount } from "wagmi";
 import {
   ConnectWallet,
-  ConnectWalletText,
   Wallet,
   WalletDropdown,
   WalletDropdownDisconnect,
